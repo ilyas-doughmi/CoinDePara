@@ -1,3 +1,5 @@
+/* Mobile Header */
+
 #menu-Mo-items {
     display: none;
     flex-direction: column;
@@ -85,3 +87,7 @@
     display: inline-block;
     z-index: 1100; 
 }
+
+
+/* Footer Mobile */
+
