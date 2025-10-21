@@ -1,0 +1,87 @@
+#menu-Mo-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #D3F1DF;
+    align-items: center;
+    padding: 20px;
+    min-width: 160px;
+    width: auto;
+    z-index: 1000;
+}
+
+#htoggle-Mo {
+    display: none;
+}
+
+#htoggle-Mo:checked~#menu-Mo-items {
+    display: flex;
+    flex: 0;
+
+    
+}
+
+.home-items a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.menu-Mo {
+    margin-right: 12%;
+}
+
+#hbutton-Mo {
+    font-size: 300%;
+    font-weight: bold;
+    position: relative;
+    z-index: 1101; 
+    background: transparent;
+    border: none;
+}
+#hbutton-Mo:hover{
+    cursor: pointer;
+}
+
+#menu-Mo-items a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+    margin-top: 12px;
+
+}
+
+#menu-Mo-items a:active {
+    text-decoration: underline;
+    transform: translate(1.2);
+
+}
+
+.header-Mo {
+    display: flex;
+    justify-content: space-between;
+    background: #d3f1df;
+    align-items: center;
+    height: 20vh;    border: 1px solid black;
+    flex-wrap: wrap;
+    overflow: visible; 
+
+}
+
+#img-logo-blue-Mo {
+    width: 25%;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+
+#menu-dropdown-Mo{
+    position: relative;
+    display: inline-block;
+    z-index: 1100; 
+}
