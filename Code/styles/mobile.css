@@ -1,0 +1,36 @@
+
+#menu-Mo-items{
+    display: none;
+    flex-direction: column;
+}
+#htoggle{
+    display: none;
+}
+#htoggle:checked ~ #menu-Mo-items {
+    display: flex;
+}
+.home-items a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+.menu-Mo{
+    margin-right: 3%;
+}
+#hbutton{
+    font-size: large;
+}
+#menu-Mo-items a{
+    text-decoration: none;
+    color: black;
+}
+.hed-Mo{
+    display: flex;
+    justify-content: space-between;
+    background: #d3f1df;
+    align-items: center;
+}
+#img-logo-bleu-Mo{
+    width: 50px;
+}
+
