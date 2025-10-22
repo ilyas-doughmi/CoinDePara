@@ -7,7 +7,7 @@ h1,p{
 .hero-m-img img{
     width:em;
 }
-.hero-m-img,.hero-text-m{
+.hero-m-img,.hero-text-m a{
     display: flex;
     justify-content: center;
     align-items: center;
