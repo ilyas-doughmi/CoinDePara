@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.details-prod {
+    margin-top: 5%;
+    font-family: 'Heebo';
+}
+
+.container-img {
+    background: #d3f1df;
+    border-radius: 25px 25px 25px 25px;
+    width: 86%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.left-details {
+    width: 43%;
+    margin-left: 5%;
+}
+
+#imdprod {
+    position: relative;
+    width: 80%;
+}
+
+.haut-details {
+    display: flex;
+    gap: 10%;
+}
+
+.right-details{
+    margin-top: 3%;
+
+}
+
+.right-details h1 {
+    font-size: 300%;
+}
+
+.right-details h2{
+    margin-top: 5%;
+}
+
+input[type="number"] {
+    background: #85a98f;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 3%;
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+
+.container-buy{
+    display: flex;
+    gap: 7%;
+}
+
+#buybutton {
+    background: #525b44;
+    border-radius: 23px 23px 23px 23px;
+    color: white;
+    padding: 10%;
+}
+
+.bas-details {
+    margin-top: 5%;
+    text-align: center;
+}
+.bas-details p{
+    font-size: 150%;
+    font-weight: 100%;
+}
+.bas-details h3{
+    font-size: 150%;
+    font-weight: 100%;
+    margin-bottom: 3%;
+}
