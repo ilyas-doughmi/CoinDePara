@@ -10,18 +10,113 @@
     }
 }
 
+.phero{
+    position: relative;
+}
+
 .phero-bg img{
     width: 100%;
 }
 
-.pherotitle{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 6.6em;
+.pherotitle h1{
+    justify-self: center;
+    position: absolute;
+    bottom: 2.4em;
     font-family: "Heebo", sans-serif;
     color: white;
 }
+.pallproducts{
+    display: flex;
+    justify-content: center;
+}
+.mobilepcards{
+    width: 100%;
+    display:grid;
+    grid-template-rows: repeat(2, 80%);
+    grid-template-columns: repeat(2, 47%);
+    gap: 2%;
+}
+
+.pcard{
+    position: relative;
+    left: 4%;
+    border-radius: 1.5em;
+    background-color: #5A6C57;
+}
+
+.product-img{
+    position: relative;
+    top: 5%;
+    justify-self: center;
+    border-radius: 1.5em;
+    background-color: white;
+    width: 80%;
+    height: 45%;
+}
+
+.product-img img{
+    position: relative;
+    left: 27%;
+    top: 9%;
+}
+
+.pcategory{
+    position: relative;
+    top: 12%;
+    justify-self: center;
+    border-radius: 1.5em;
+    background-color: white;
+    padding: 2% 6%;
+    font-size: 70%;
+    font-family:"Heebo", sans-serif;
+}
+
+.pbuybutton{
+    position: relative;
+    justify-self: center;
+    top: 24%;
+    border-radius: 1.5em;
+    background-color: #85A98F;
+    padding: 4% 10%;
+    font-size: 70%;
+}
+
+.pbuybutton a{
+    text-decoration: none;
+    font-family:"Heebo", sans-serif;
+    color: black;
+}
+
+.pbuybutton:active{
+    background-color: #5A6C57;
+  transform: scale(0.95);
+}
+
+.curentpage{
+    background-color: #5A6C57;
+    padding: 2%;
+    color: white;
+    border-radius: 1Em;
+}
+
+
+.numbers{
+    position: relative;
+    left: 7em;
+    top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.otherpages{
+    position: relative;
+    top: 12%;
+}
+
+
+
+
 
 
 
