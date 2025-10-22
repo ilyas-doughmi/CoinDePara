@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width:412px) and (max-width:767px){
+    .desktoppcards{
+        display: none;
+    }
+}
+
+.phero-bg img{
+    width: 100%;
+}
+
+.pherotitle{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 6.6em;
+    font-family: "Heebo", sans-serif;
+    color: white;
+}
+
+
+
