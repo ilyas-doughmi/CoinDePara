@@ -1,3 +1,5 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
 *{
     margin:0;
     padding: 0;
@@ -196,4 +198,9 @@ h1,p{
 .partner-logos img{
     width: 25%;
     height: auto;
+}
+}
+
+@media (min-width: 1024px) {
+  
 }
