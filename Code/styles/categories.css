@@ -1,0 +1,97 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.containerCA{
+    height: 100%;
+    width: 100%;
+}
+.hero{
+    background-image:url(../media/Rectangle\ 61.png) ;
+    background-size: cover;
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    justify-self: center;
+    color:#FFFFFF;
+    font-family: "Heebo" ,sans-serif;
+}
+.card1{
+    height: 148px;
+    width: 157px;
+    text-decoration: none;
+    border-radius: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1 h2{
+    color:#FFFFFF;
+    font-family:"Heebo",sans-serif;
+}
+.card1:active{
+    transform: scale(1.2);
+    box-shadow: 0 4px 16px rgba(59, 157, 113, 0.2);
+}
+.card2{
+    height: 148px;
+    width: 157px;
+    overflow: hidden;
+    overflow-y: hidden;
+    background: url("../media/Categories/2.png");
+    border-radius: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2 h2{
+    color:#FFFFFF;
+    font-family:"Heebo",sans-serif;
+}
+
+.card3{
+    height: 148px;
+    width: 157px;
+    overflow: hidden;
+    overflow-y: hidden;
+    background: url("../media/Categories/3.png");
+    border-radius: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card3 h2{
+    color:#FFFFFF;
+    font-family:"Heebo",sans-serif;
+}
+.card4{
+    height: 148px;
+    width: 157px;
+    overflow: hidden;
+    overflow-y: hidden;
+    background: url("../media/Categories/4.png");
+    border-radius: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card4 h2{
+    color:#FFFFFF;
+    font-family:"Heebo",sans-serif;
+}
+.gridCA{
+    margin-top:10%;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    justify-content: space-evenly;
+    row-gap:10%;
+}
