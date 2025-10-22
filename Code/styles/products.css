@@ -23,9 +23,9 @@
 }
 
 .mobilepcards{
+    display:grid;
     justify-content: center;
     width: 100%;
-    display:grid;
     grid-template-rows: repeat(2, 80%);
     grid-template-columns: repeat(2, 47%);
     gap: 2%;
@@ -84,7 +84,7 @@
 .numbers{
     display: flex;
     justify-content: center;
-    gap: 2%;
+    gap: 1%;
 }
 
 .otherpages{
@@ -98,9 +98,22 @@
     border-radius: 1Em;
 }
 
+@media screen and (min-width:767px){
+    .mobilepcards{
+        display: none;
+    }
 
+    .desktoppcards{
+    margin: 0% 22%;
+    width: 40%;
+    display:grid;
+    grid-template-rows: repeat(3, 80%);
+    grid-template-columns: repeat(3, 47%);
+    gap: 2%;
+    margin-bottom:10em;
+}
 
-
+}
 
 
 
