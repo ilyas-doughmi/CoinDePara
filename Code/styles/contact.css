@@ -9,11 +9,11 @@
     justify-content: center;
     width: 100%;
 }
-.inputfield{
+.input-block{
     display: flex;
     flex-direction: column;
 }
 
-.inputfield input{
-    width: calc(100% + 100px);
+.input_input{
+    padding: 12px 23px;
 }
