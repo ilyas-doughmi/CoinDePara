@@ -1,10 +1,13 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+
 
 *{
     margin:0;
     padding: 0;
 }
  
+h1,h2,h3,h4,h5,h6,p{
+    font-family: "Heebo", sans-serif;
+}
 /*Header*/
 #menu-Mo-items {
     display: none;
@@ -143,6 +146,7 @@ h1,p{
 .popular-products h2{
     color:#85A98F;
     margin: 5% 0%;
+    font-size: 200%;
 }
 .popular-products{
     background-color: #ffffff;
@@ -177,16 +181,24 @@ h1,p{
     justify-content: center;
     align-items: center;
     border: 2px solid #D3F1DF;
-    border-radius: 20px;
+    border-radius: 30px;
     text-decoration: none;
     color:black;
-    background-color: #D3F1DF;
-    padding: 4%;
+    background-color:#85A98F;
+    padding: 3%;
     margin: 5% 0%;
     font-size:80%;
     font-weight: bold;
     width:40%;
+    height: 10px;
+    max-width: 200px;;
 }
+
+.product4 img{
+    width: 209px;
+    height: 209px;
+}
+
 /*partners*/
 .partner-logos{
     border: 2px solid black;
@@ -199,8 +211,64 @@ h1,p{
     width: 25%;
     height: auto;
 }
-}
-
 @media (min-width: 1024px) {
-  
+.header-dt{
+        display: flex;
+}
+.header-Mo{
+    display: none;
+}
+.footer-mo{
+    display: none;
+}
+.hero-m{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.popular-products{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+.product1,.product2,.product3,.product4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:5%;
+    height: 500px;
+    border: 2px solid #85A98F;
+    border-radius: 20px;
+    background-color:#85A98F;
+}
+.partners{
+    margin:40px;
+}
+.partner-logos{
+    padding:30px;
+}
+.hero-m-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.hero-text-m {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    text-align: left;         
+    gap: 2rem;                
+    width: 60%;
+    margin-top: 10%;                         
+}
 }

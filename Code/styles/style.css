@@ -102,12 +102,10 @@ header{
     width: 100%;
     display: none;
     background-color: #D3F1DF;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-/* .logo-DT{
-    margin-left: 23px;
-} */
+
 .middle-links{
     display: flex;
     justify-content: space-between;
@@ -303,7 +301,7 @@ header{
     margin-left: 3%;
     width: 100%;
 }
-@media (min-width: 964px) {
+@media (min-width: 1024px) {
 .header-dt{
         display: flex;
 }
