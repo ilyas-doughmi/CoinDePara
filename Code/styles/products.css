@@ -84,11 +84,12 @@
 .numbers{
     display: flex;
     justify-content: center;
-    gap: 1%;
+    gap: 7%;
 }
 
 .otherpages{
     align-self: center;
+    letter-spacing: 0.7em;
 }
 
 .curentpage{
@@ -111,6 +112,17 @@
     grid-template-columns: repeat(3, 47%);
     gap: 2%;
     margin-bottom:10em;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.otherpages{
+    align-self: center;
+    letter-spacing: 0.4em;
 }
 
 }
