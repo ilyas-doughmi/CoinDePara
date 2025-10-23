@@ -241,6 +241,16 @@ header{
 }
 
 @media (min-width: 1024px) {
+
+.header-dt{
+    display: flex;
+    height: 15vh;
+    border: 1px solid black;
+}
+.header-Mo
+{
+    display: none;
+}
 .footer-content-dt{
     width: 100%;
 }
