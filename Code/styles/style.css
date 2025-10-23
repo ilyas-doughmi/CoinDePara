@@ -102,10 +102,12 @@ header{
     width: 100%;
     display: none;
     background-color: #D3F1DF;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
-
+/* .logo-DT{
+    margin-left: 23px;
+} */
 .middle-links{
     display: flex;
     justify-content: space-between;
@@ -157,9 +159,7 @@ header{
 
 }
 .footer-mo{
-        background-color: #85A98F;
-
-    
+    background-color: #85A98F;
 }
 
 .brand-mo{
@@ -237,6 +237,71 @@ header{
     top: 7%;
     margin-right: 20px;
 }
+.footer-content-dt{
+    width: 100%;
+}
+.footer-dt{
+    display: none;
+    height: 40vh;
+    background-color: #85A98F;
+
+    width: 100%;
+
+}
+.footer-dt p{
+    width: 40%;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Heebo',sans-serif;
+    margin-left: 23px;
+    color: white;
+    width: 450px;
+
+}
+
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+.footer-right h1{
+    width: 300px;
+}
+
+.social-media-dt h1 {
+    color: white;
+    font-family: 'Heebo',sans-serif;
+    font-size: 28px;
+ 
+}
+
+#f-link{
+    margin-top: 12px;
+}
+
+.social-media-dt{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-info-dt{
+    display: flex;
+    margin-top: 30%;
+    color: white;
+    font-family: 'Heebo',sans-serif;
+    gap: 23px;
+    margin-left: 3%;
+    width: 100%;
+}
 @media (min-width: 964px) {
 .header-dt{
         display: flex;
@@ -246,5 +311,9 @@ header{
 }
 .footer-mo{
     display: none;
+}
+
+.footer-dt{
+    display: flex;
 }
 }
