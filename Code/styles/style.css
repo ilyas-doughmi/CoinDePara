@@ -239,7 +239,9 @@ header{
     top: 7%;
     margin-right: 20px;
 }
-<<<<<<<<< Temporary merge branch 1
+
+@media (min-width: 1024px) {
+=======
 .footer-content-dt{
     width: 100%;
 }
@@ -306,9 +308,7 @@ header{
     width: 100%;
 }
 @media (min-width: 964px) {
-=========
-@media (min-width: 1024px) {
->>>>>>>>> Temporary merge branch 2
+
 .header-dt{
         display: flex;
 }
