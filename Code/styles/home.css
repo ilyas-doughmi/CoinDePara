@@ -5,6 +5,9 @@
     padding: 0;
 }
  
+h1,h2,h3,h4,h5,h6,p{
+    font-family: "Heebo", sans-serif;
+}
 /*Header*/
 #menu-Mo-items {
     display: none;
@@ -256,5 +259,16 @@ h1,p{
 .hero-m-overlay{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;}
+    justify-content: center;
+    text-align: left;
+}
+.hero-text-m {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    text-align: left;         
+    gap: 2rem;                
+    width: 60%;
+    margin-top: 10%;                         
+}
 }
