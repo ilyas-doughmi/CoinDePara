@@ -239,7 +239,76 @@ header{
     top: 7%;
     margin-right: 20px;
 }
+<<<<<<<<< Temporary merge branch 1
+.footer-content-dt{
+    width: 100%;
+}
+.footer-dt{
+    display: none;
+    height: 40vh;
+    background-color: #85A98F;
+
+    width: 100%;
+
+}
+.footer-dt p{
+    width: 40%;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Heebo',sans-serif;
+    margin-left: 23px;
+    color: white;
+    width: 450px;
+
+}
+
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+.footer-right h1{
+    width: 300px;
+}
+
+.social-media-dt h1 {
+    color: white;
+    font-family: 'Heebo',sans-serif;
+    font-size: 28px;
+ 
+}
+
+#f-link{
+    margin-top: 12px;
+}
+
+.social-media-dt{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-info-dt{
+    display: flex;
+    margin-top: 30%;
+    color: white;
+    font-family: 'Heebo',sans-serif;
+    gap: 23px;
+    margin-left: 3%;
+    width: 100%;
+}
+@media (min-width: 964px) {
+=========
 @media (min-width: 1024px) {
+>>>>>>>>> Temporary merge branch 2
 .header-dt{
         display: flex;
 }
