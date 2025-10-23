@@ -241,7 +241,6 @@ header{
 }
 
 @media (min-width: 1024px) {
-=======
 .footer-content-dt{
     width: 100%;
 }
@@ -306,20 +305,5 @@ header{
     gap: 23px;
     margin-left: 3%;
     width: 100%;
-}
-@media (min-width: 964px) {
-
-.header-dt{
-        display: flex;
-}
-.header-Mo{
-    display: none;
-}
-.footer-mo{
-    display: none;
-}
-
-.footer-dt{
-    display: flex;
 }
 }
