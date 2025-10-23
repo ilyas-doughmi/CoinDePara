@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -238,6 +239,9 @@ header{
     top: 7%;
     margin-right: 20px;
 }
+
+@media (min-width: 1024px) {
+=======
 .footer-content-dt{
     width: 100%;
 }
@@ -304,6 +308,7 @@ header{
     width: 100%;
 }
 @media (min-width: 964px) {
+
 .header-dt{
         display: flex;
 }
