@@ -93,8 +93,9 @@ input[type="number"] {
     margin: 5%;
 }
 
-.bas-details h3 {
+.style-h3 {
     margin-bottom: 2%;
+    color:  #525b44;
 }
 
 .bas-details-1{
@@ -106,4 +107,33 @@ input[type="number"] {
     width: 80%;
     height: 1%;
     margin-top: 1%;
+}
+
+.para-descrip{
+    color: #aeaeae;
+    margin-left: 1%;
+}
+
+.liste li::marker{
+    color: #00a79f;
+}
+
+.liste li{
+    color: #aeaeae;
+    margin-left: 3%;
+}
+.bas-details-2{
+    display: flex;
+    gap: 2%;
+}
+.h3-use{
+    margin-bottom: 2%;
+    margin-left: 5%;
+    color:  #525b44;
+}
+
+.para-use{
+    color: #aeaeae;
+    margin-left: 5%;
+    margin-bottom: 3%;
 }
