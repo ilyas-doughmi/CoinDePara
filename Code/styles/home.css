@@ -130,6 +130,9 @@ h1,p{
     display: flex;
     flex-direction: row-reverse;
 }
+.hero-m-img{
+    width: 75%;
+}
 .popular-products{
     background-color: #ffffff;
     display: flex;
