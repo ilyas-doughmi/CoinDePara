@@ -10,12 +10,12 @@
 }
 
 .container-img {
-    background: #d3f1df;
     border-radius: 25px 25px 25px 25px;
-    width: 86%;
+    width: 90%;
     position: relative;
     display: flex;
     justify-content: center;
+    border: 2px solid #d3f1df;
 }
 
 .left-details {
@@ -30,43 +30,63 @@
 
 .haut-details {
     display: flex;
-    gap: 10%;
+    gap: 5%;
 }
-
-.right-details{
-    margin-top: 3%;
-
+.right-details__para-details--color{
+    color: #00a79f;
+}
+.right-details {
+    width: 43%;
+}
+.para-details{
+    margin-top: 5%;
+    color: #aeaeae;
+}
+.container-right {   
+    border: 2px solid #d3f1df;
+    border-radius: 25px 25px 25px 25px;
 }
 
 .right-details h1 {
-    font-size: 300%;
+    color:  #525b44;
 }
 
-.right-details h2{
+.right-details h2 {
     margin-top: 5%;
+    color: #525b44;
+}
+.prix-ancien {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 80%;
+  font-weight: 50;
+  
 }
 
 input[type="number"] {
-    background: #85a98f;
-    border-radius: 23px;
+    border: 1px solid #85a98f;
+    border-radius: 13px;
     margin-top: 3%;
     text-align: center;
-    color: white;
-    width: 120%;
-    height: 60px;
+    color: #85a98f;  
+    height: 50px;
+    width: 20%;
     font-size: 20px;
 }
 
-.container-buy{
+.container-buy {
     display: flex;
-    gap: 20%;
+    gap: 2%;
 }
 
 #buybutton {
-    background: #525b44;
-    border-radius: 23px 23px 23px 23px;
+    background: #85a98f;
+    border-radius: 13px;
     color: white;
-    width: 50%;
+    width: 20%;
+    height: 50px;
+    font-size: 120%;
+    align-self: end;
 }
 
 .bas-details {
@@ -74,11 +94,8 @@ input[type="number"] {
     text-align: center;
     margin-bottom: 5%;
 }
-.bas-details p{
-    font-size: 150%;
-    font-weight: 100%;    
-}
-.bas-details h3{
+
+.bas-details h3 {
     font-size: 150%;
     font-weight: 100%;
     margin-bottom: 3%;
