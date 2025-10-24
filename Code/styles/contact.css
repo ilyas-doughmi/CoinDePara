@@ -1,0 +1,19 @@
+.contact-main{
+    height: 80vh;
+}
+
+.contact-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.input-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_input{
+    padding: 12px 23px;
+}

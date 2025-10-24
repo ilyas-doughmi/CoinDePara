@@ -102,12 +102,10 @@ header{
     width: 100%;
     display: none;
     background-color: #D3F1DF;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-/* .logo-DT{
-    margin-left: 23px;
-} */
+
 .middle-links{
     display: flex;
     justify-content: space-between;
@@ -160,6 +158,7 @@ header{
 }
 .footer-mo{
     background-color: #85A98F;
+    height: 60vh;
 }
 
 .brand-mo{
@@ -243,7 +242,7 @@ header{
 }
 .footer-dt{
     display: none;
-    height: 40vh;
+    height: 70vh;
     background-color: #85A98F;
 
     width: 100%;
@@ -303,7 +302,7 @@ header{
     margin-left: 3%;
     width: 100%;
 }
-@media (min-width: 964px) {
+@media (min-width: 1024px) {
 .header-dt{
         display: flex;
 }
