@@ -130,6 +130,9 @@ h1,p{
     display: flex;
     flex-direction: row-reverse;
 }
+.hero-m-img{
+    width: 50%;
+}
 .popular-products{
     background-color: #ffffff;
     display: flex;
@@ -169,8 +172,8 @@ h1,p{
 .hero-text-m {
     text-align: left;        
     gap: 2rem;                
-    width: 45%;
-    margin-top: 10%;                   
+    width: 50%;
+    margin-top: 15%;                   
 }
 .hero-text-m h1{
     font-size: 250%;
