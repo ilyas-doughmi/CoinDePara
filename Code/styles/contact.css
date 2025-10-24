@@ -1,19 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Heebo',sans-serif;
+}
+
 .contact-main{
-    height: 80vh;
+    height: 50vh;
 }
 
 .contact-content{
     height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100%;
+    margin-top: 12%;
+}
+
+.contact-top{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 .input-block{
     display: flex;
     flex-direction: column;
 }
-
-.input_input{
-    padding: 12px 23px;
+.input-block label{
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 7%;
 }
+.input-block input{
+    padding: 20px 60px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #85A98F;
+}
+
+#btn-contact{
+    margin-top: 23px;
+    background-color: #525B44;
+    border: none;
+    border-radius: 23px;
+    padding: 18px 90px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#btn-contact:active{
+    transform: scale(0.8);
+}
+
+
+/* faq */
+.faq-contact{
+    height: 25vh;
+    background-color: #85A98F;
+}
+
+.faq-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.faq-card{
+    background-color: white;
+    width: 80%;
+    font-size: 7px;
+    padding: 8px 23Px;
+    margin-top: 10px;
+}
+
+
+.faq-card_text{
+    display: flex;
+    text-align: center;
+    gap: 10%;
+}
+
+.faq-card_text label{
+    align-self: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.faq-card_text input{
+    display: none;
+}
+.space{
+    height: 10vh;
+}
+
+
