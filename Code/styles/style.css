@@ -158,7 +158,7 @@ header{
 }
 .footer-mo{
     background-color: #85A98F;
-    height: 95vh;
+    height: 70vh;
 }
 
 .brand-mo{
@@ -241,7 +241,7 @@ header{
 }
 .footer-dt{
     display: none;
-    height: 60vh;
+    height: 80vh;
     background-color: #85A98F;
 
     width: 100%;
