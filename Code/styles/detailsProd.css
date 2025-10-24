@@ -60,7 +60,11 @@
   color: #999;
   font-size: 80%;
   font-weight: 50;
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> f6184cae5afa86fee506f80819f8ec13d657b4bb
 }
 
 input[type="number"] {
@@ -93,9 +97,14 @@ input[type="number"] {
     margin: 5%;
 }
 
+<<<<<<< HEAD
 .style-h3 {
     margin-bottom: 2%;
     color:  #525b44;
+=======
+.bas-details h3 {
+    margin-bottom: 2%;
+>>>>>>> f6184cae5afa86fee506f80819f8ec13d657b4bb
 }
 
 .bas-details-1{
@@ -107,6 +116,7 @@ input[type="number"] {
     width: 80%;
     height: 1%;
     margin-top: 1%;
+<<<<<<< HEAD
 }
 
 .para-descrip{
@@ -136,4 +146,6 @@ input[type="number"] {
     color: #aeaeae;
     margin-left: 5%;
     margin-bottom: 3%;
+=======
+>>>>>>> f6184cae5afa86fee506f80819f8ec13d657b4bb
 }
