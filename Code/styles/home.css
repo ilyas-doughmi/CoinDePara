@@ -175,4 +175,9 @@ h1,p{
 .hero-text-m h1{
     font-size: 250%;
 }
+.showmore a{
+    padding: 2%;
+    border-radius:40px ;
+}
+
 }
