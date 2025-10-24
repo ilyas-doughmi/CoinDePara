@@ -1,19 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Heebo',sans-serif;
+}
+
 .contact-main{
-    height: 80vh;
+    height: 50vh;
 }
 
 .contact-content{
     height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100%;
-}
-.inputfield{
-    display: flex;
-    flex-direction: column;
+    margin-top: 12%;
 }
 
-.inputfield input{
-    width: calc(100% + 100px);
+@media screen and (min-width: 768px) {
+    .contact-main {
+        height: 60vh;
+    }
+    
+    .contact-content {
+        margin-top: 8%;
+    }
 }
+
+.contact-top{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.input-block{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 500px;
+}
+.input-block label{
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 7%;
+    font-size: 14px;
+}
+.input-block input{
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #85A98F;
+    width: 100%;
+    min-width: 280px;
+}
+
+@media screen and (min-width: 768px) {
+    .input-block {
+        width: 70%;
+    }
+    .input-block input {
+        padding: 25px 40px;
+        font-size: 16px;
+    }
+    .input-block label {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .input-block {
+        width: 60%;
+    }
+    .input-block input {
+        padding: 25px 50px;
+        font-size: 18px;
+    }
+    .input-block label {
+        font-size: 18px;
+        margin-top: 5%;
+    }
+}
+
+#btn-contact{
+    margin-top: 23px;
+    background-color: #525B44;
+    border: none;
+    border-radius: 23px;
+    padding: 18px 90px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#btn-contact:active{
+    transform: scale(0.8);
+}
+
+
+/* faq */
+.faq-contact{
+    min-height: 25vh;
+    background-color: #85A98F;
+    padding: 20px 0;
+}
+
+.faq-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .faq-contact {
+        min-height: 40vh;
+        padding: 40px 0;
+    }
+    
+    .faq-content {
+        width: 70%;
+        margin: 0 auto;
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .faq-contact {
+        min-height: 50vh;
+    }
+    
+    .faq-content {
+        width: 60%;
+    }
+}
+
+.faq-card{
+    background-color: white;
+    width: 90%;
+    font-size: 12px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.faq-card_text{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+
+@media screen and (min-width: 768px) {
+    .faq-card {
+        width: 100%;
+        font-size: 14px;
+        padding: 15px 30px;
+        margin-top: 15px;
+    }
+    
+    .faq-card_text {
+        gap: 15%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .faq-card {
+        font-size: 16px;
+        padding: 20px 40px;
+    }
+    
+    .faq-card_text h1 {
+        font-size: 18px;
+    }
+}
+
+.faq-card_text label{
+    align-self: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.faq-card_text input{
+    display: none;
+}
+.space{
+    height: 10vh;
+}
+
+
