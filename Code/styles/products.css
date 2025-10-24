@@ -81,22 +81,36 @@
     transform: scale(0.95);
 }
 
-.numbers{
-    display: flex;
-    justify-content: center;
-    gap: 7%;
+.pagenation{
+    text-align: center;
 }
 
-.otherpages{
-    align-self: center;
-    letter-spacing: 0.7em;
+.pagenation a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 0.5EM;
 }
 
-.curentpage{
+.pagenation a.active{
     background-color: #5A6C57;
     padding: 1%;
     color: white;
     border-radius: 1Em;
+}
+
+.pagenation a:active:not(.active){
+    background-color: #828181;
+    padding: 0.5%;
+    color: white;
+    border-radius: 1Em;
+    transform: scale(1.2);
+}
+
+.pallproducts{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
 @media screen and (min-width:767px){
@@ -113,18 +127,6 @@
     gap: 2%;
     margin-bottom:10em;
 }
-
-.numbers{
-    display: flex;
-    justify-content: center;
-    gap: 2%;
-}
-
-.otherpages{
-    align-self: center;
-    letter-spacing: 0.4em;
-}
-
 .pherotitle{
     display: flex;
     justify-content: center;
@@ -136,10 +138,12 @@
     width: 100%;
     height: 25VH;
 }
-
+.pagenation a:hover:not(.active){
+    background-color: #828181;
+    padding: 0.5%;
+    color: white;
+    border-radius: 1Em;
+    transform: scale(1.2);
 }
 
-
-
-
-
+}
